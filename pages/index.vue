@@ -1,284 +1,351 @@
 <template>
-<div>
-  <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="header" id="top">
-        <nav class="navbar navbar-inverse" role="navigation">
-          <div class="container">
-              <div class="navbar-header">
-                  <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a href="#" class="navbar-brand scroll-top"><img src="images/logo.png" alt="Layer Template">Layer</a>
-              </div>
-              <!--/.navbar-header-->
-              <div id="main-nav" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Pages</a>
-                    <ul class="sub-menu">
-                      <li><a href="left_sidebar.html">Left Sidebar</a></li>
-                      <li><a href="right_sidebar.html">Right Sidebar</a></li>
-                      <li><a href="without_sidebar.html">Without Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="columns.html">Columns</a></li>
-                  <li><a href="#"><span>Sign Up</span></a></li>
-                </ul>
-              </div>
-              <!--/.navbar-collapse-->
-      		</div>
-      		<!--/.container-->
-      </nav>
-          <!--/.navbar-->
-    </div>
-    <!--/.header-->
+<div >
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
 
 
-    <div class="parallax">
 
+      <header class="site-navbar site-navbar-target" role="banner">
 
-      <div class="bg__first templatemo-position-relative">
         <div class="container">
-          <div class="templatemo-flexbox">
-            <div class="row">
-              <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="left-image wow animated fadeInLeft">
-                  <img src="images/creative-writing.png" alt="creative writing" class="img-responsive">
-                </div>
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="index.html" class="font-weight-bold">Arcwork</a>
               </div>
-              <div class="col-md-8 col-sm-8 col-xs-12">
-                <div class="right-caption wow animated fadeInRight">
-                  <h4>Introducing New Website</h4>
-                  <h2><span class="yellow">Layer</span> Design</h2>
-                  <p>Layer is free website template from <span class="yellow">template</span><span class="lightgreen">mo</span>.com website. Photos used in this template are from <a rel="nofollow" href="http://unsplash.com"><span class="yellow">Unsplash</span></a>. Maecenas fauci ice bus et felis at scelerisque.</p>
-                  <div class="stroked-button"><a href="#" class="scroll-link" data-id="second-section">Read More</a></div><br>
-                </div>
-              </div>
+            </div>
+
+            <div class="col-9  text-right">
+
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-primary"></span></a></span>
+
+
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li><a href="about.html" class="nav-link">About</a></li>
+                  <li><a href="services.html" class="nav-link">Services</a></li>
+                  <li><a href="blog.html" class="nav-link">Blog</a></li>
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+          </div>
+        </div>
+
+      </header>
+
+    <div class="ftco-blocks-cover-1">
+      <div class="site-section-cover half-bg">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-8">
+              <h1 class="mb-5 text-primary font-weight-bold"  data-aos="fade-up">Grow Up Your <span class="typed-words">Business</span>.</h1>
+              <p data-aos="fade-up" data-aos-delay="100"><a href="#" class="more-29291">View Our Services</a></p>
             </div>
           </div>
         </div>
-        <div class="arrow text-center">
-          <a href="#" class="scroll-link btn btn-dark" data-id="second-section"><i class="fa fa-angle-down"></i></a>
-        </div>
       </div>
+    </div>
+    <div class="site-section">
 
-
-      <div id="second-section">
-        <div class="bg__second">
-        </div>
-      </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 fadeInUp">
-            <div class="sevice-items">
-              <div class="col-md-3 col-sm-6 wow bounceInUp">
-                <div class="single-item">
-                  <i class="fa fa-camera"></i>
-                  <h2>Options</h2>
-                  <p>In egestas arcu quis diam mattis dignissim. Nam vestibulum sed est acil feugiat tempor.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 wow bounceInUp">
-                <div class="single-item">
-                  <i class="fa fa-refresh"></i>
-                  <h2>Icons</h2>
-                  <p>Change icons by <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/">Font Awesome</a> (version 4). Example: &lt;i class=&quot;fa fa-refresh&quot;&gt;&lt;/i&gt;</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 wow bounceInUp">
-                <div class="single-item">
-                  <i class="fa fa-link"></i>
-                  <h2>Responsive</h2>
-                  <p>In egestas arcu quis diam mattis dignissim. Nam vestibulum sed est acil feugiat tempor.</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6 wow bounceInUp">
-                <div class="single-item">
-                    <i class="fa fa-download"></i>
-                    <h2>Template</h2>
-                    <p>In egestas arcu quis diam mattis dignissim. Nam vestibulum sed est acil feugiat tempor.</p>
-                </div>
-              </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
+            <div class="feature-92912">
+              <span class="wrap-icon flaticon-debt"></span>
+              <h2 class="heading">Financial Analysis</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+
+              <p><a href="#" class="more-92913">View Our Services</a></p>
             </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-92912 active">
+              <span class="wrap-icon flaticon-growth"></span>
+              <h2 class="heading">Marketing Plans</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+              <p><a href="#" class="more-92913">View Our Services</a></p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-92912">
+              <span class="wrap-icon flaticon-business-plan"></span>
+              <h2 class="heading">Optimize Solutions</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+              <p><a href="#" class="more-92913">View Our Services</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="site-section bg-left-half mb-5">
+      <div class="container block-13">
+
+        <h2 class="text-primary mb-5 font-weight-bold">Our Solutions</h2>
+
+
+        <div class="owl-carousel nonloop-block-13">
+          <div class="media-29101">
+            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Beatae Doloribu</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Accusantium Eius Soluta</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Beatae Doloribu</a></h3>
+          </div>
+          <div class="media-29101">
+            <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+            <h3><a href="#">Accusantium Eius Soluta</a></h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+
+            <h2 class="text-primary mb-5 font-weight-bold">Testimonial</h2>
+
+            <div class="owl-carousel slide-one-item">
+
+              <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="image" style="background-image: url('images/testimony_person_1.jpg');"></div>
+                <div class="text">
+                  <blockquote>
+                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam! Sunt sequi, nemo. Quam consequuntur ipsum suscipit repellat molestiae laboriosam, incidunt!&rdquo;</p>
+
+                    <div class="author">&mdash; Craig Stephen</div>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div class="d-md-flex testimony-29101 align-items-stretch">
+                <div class="image" style="background-image: url('images/testimony_person_1.jpg');"></div>
+                <div class="text">
+                  <blockquote>
+                    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, at! Atque totam obcaecati veniam eius vero, similique quibusdam! Sunt sequi, nemo. Quam consequuntur ipsum suscipit repellat molestiae laboriosam, incidunt!&rdquo;</p>
+
+                    <div class="author">&mdash; Craig Stephen</div>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-primary mb-5 font-weight-bold float-left">Blog</h2>
+            <div class="float-right"><a href="#">View All</a></div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-            <div class="service-arrow">
-              <a href="#" class="scroll-link btn btn-dark" data-id="third-section"><i class="fa fa-angle-down"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_1.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
 
-
-      <div class="bg__third">
-        <div id="third-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 col-sm-6 col-xs-10 wow animated fadeInLeft">
-                <div class="left-text">
-                  <h2>.03 Section Three Title</h2>
-                  <div class="line"></div>
-                  <p>Please tell your friends about <span class="blue">template</span><span class="green">mo</span>.com website. Ut at nisl sem. Praesent ac efficitur mi. Sed fermentum iaculis accumsan. Mauris rutrum dignissim eros id finibus sed turpis in diam mollis lobortis. <br><br>Phasellus tincidunt leo ante, quis convallis lectus pretium vel. Ut blandit, est eget feugiat laoreet, magna nisi volutpat ligula, commodo efficitur metus magna vel sapien.</p>
-                  <div class="button">
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 templatemo-position-relative">
-                <div class="fourth-arrow">
-                  <a href="#" class="scroll-link btn btn-dark" data-id="fourth-section"><i class="fa fa-angle-down"></i></a>
-                </div>
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_2.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
 
-
-      <div class="bg__fourth">
-        <div id="fourth-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 col-md-offset-8 col-sm-6 col-xs-10 col-xs-offset-1 wow animated fadeInLeft">
-                <div class="left-text">
-                  <h2>.04 Section Four Title</h2>
-                  <div class="line"></div>
-                  <p>Donec suscipit hendrerit euismod. Ut at nisl sem. Praesent ac efficitur mi. Sed fermentum iaculis accumsan. Mauris rutrum dignissim eros id finibus sed turpis in diam mollis lobortis. <br><br>Phasellus tincidunt leo ante, quis convallis lectus pretium vel. Ut blandit, est eget feugiat laoreet, magna nisi volutpat ligula, commodo efficitur metus magna vel sapien.</p>
-                  <div class="button">
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
-            <div class="col-md-12">
-              <div class="fourth-arrow">
-                <a href="#" class="scroll-link btn btn-dark" data-id="fifth-section"><i class="fa fa-angle-down"></i></a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/img_3.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+
+                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-
-      <div id="fifth-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-xs-12 wow animated fadeInDown">
-              <h1>Fill This Application Now!</h1>
-              <div class="col-md-12">
-                <p>Nulla aliquam felis mi, volutpat convallis lorem eleifend id. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-              </div>
-            </div>
+    <div class="site-section bg-tertiary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="text-primary mb-5 font-weight-bold">Let's work together to make your business growth dramatically.</h2>
+            <p><a href="#" class="more-29291">View Our Services</a></p>
           </div>
-          <form action="#" method="get">
-          <div class="row">
-
-            <div class="col-md-8 col-md-offset-2 wow animated fadeInUp">
-
-              <div class="submit-form">
-
-                <div class="col-md-3">
-                  <input name="name" type="text" id="name" placeholder="Your name..."/>
-                </div>
-
-                <div class="col-md-3">
-                  <input name="email" type="text" id="email" placeholder="Your email..."/>
-                </div>
-
-                <div class="col-md-3">
-                  <select name="gender" id="gender">
-                    <option value="null">Gender</option>
-                  	<option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                </select>
-                </div>
-
-                <div class="col-md-3">
-                  <select name="age" id="age">
-                    <option value="null">Age</option>
-                  	<option value="18-24">18 - 24</option>
-                    <option value="25-30">25 - 30</option>
-                    <option value="31-40">31 - 40</option>
-                    <option value="41-60">41 - 60</option>
-                </select>
-                </div>
-
-              </div><!-- submit form -->
-
-            </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-4 col-md-offset-5 wow animated fadeInUp">
-                    <input type="submit" value="Submit" class="templatemo-submit" />
-                </div>
-
-          	</div>
-
-          </form>
         </div>
       </div>
+    </div>
 
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="social-icons">
-                <ul>
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google"></i></a></li>
+    <div class="footer site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="site-logo-footer">
+              <a href="index.html">ArcWork</a>
+            </div>
+          </div>
+          <div class="col-md-8 ml-auto">
+            <div class="row">
+              <div class="col-md-4 ml-auto">
+                <ul class="list-unstyled links">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">hello@mydomain.com</a></li>
+                  <li><a href="#">+1 829 2293 382</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-unstyled links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-unstyled links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">About Us</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="copyright-text">
-              <p>Copyright &copy; 2084 Company Name</p>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="third-arrow">
-              <a href="#" class="scroll-link btn btn-dark" data-id="top"><i class="fa fa-angle-up"></i></a>
-            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <a href="#"><span class="m-2 icon-facebook"></span></a>
+            <a href="#"><span class="m-2 icon-twitter"></span></a>
+            <a href="#"><span class="m-2 icon-linkedin"></span></a>
+            <a href="#"><span class="m-2 icon-instagram"></span></a>
+            <a href="#"><span class="m-2 icon-skype"></span></a>
           </div>
         </div>
-      </footer>
-
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
   </body>
 </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-new WOW ({
-  animateClass: 'animated',
-  offset: 100
-}).init();
+import Logo from "~/components/Logo.vue";
 
 
 export default {
   components: {
     Logo
-  }
-}
-</script>
+  },
+  methods: {
+    getData() {
+      const client = contentful.createClient({
+        // This is the space ID. A space is like a project folder in Contentful terms
+        space: "p0xdyl00ot4c",
+        // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
+        accessToken: "H38I9XnRZpfnTkbw3Iq-pVNzPIIFpk2kU9KZmQFHBcc"
+      });
+      // This API call will request an entry with the specified ID from the space defined at the top, using a space-specific access token.
+      client
+        .getEntry("5EZ6gqgnmh6XybT19yeykA")
+        .then(entry => console.log(entry))
+        // .catch(err => console.log(err));
+    }
+  },
+  mounted() {
+    this.getData();
 
+    var typed = new Typed('.typed-words', {
+            strings: ["Business"," Startups"," Organization", " Company"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+
+  }
+};
+</script>
