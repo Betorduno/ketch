@@ -1,0 +1,79 @@
+
+
+ /* Variables
+/* ---------------------------------------------------------- */
+
+
+@font-face {
+  font-family:'ModeratRegular';
+  /* src:  url('../fonts/Moderat-Regular.woff2') format('woff2'),
+  url('../fonts/Moderat-Regular.woff') format('woff'); */
+}
+
+@font-face {
+  font-family: 'ModeratBold';
+  /* src:  url('../fonts/Moderat-Bold.woff2') format('woff2'),
+      url('../fonts/Moderat-Bold.woff') format('woff'); */
+}
+
+
+:root {
+
+  /* Colours */
+
+  --color-darkness: #201D19;
+  --color-reflect: #737579;
+  --color-greybeard: #9C9EA3;
+  --color-divide: #DDDEDF;
+  --color-whitesand: #FAF7F5;
+  --color-snow: #ffffff;
+
+  --color-peopleeater: #695AF1;
+  --color-skyrim: #BFF0FF;
+  --color-maryjane: #54DA92;
+  --color-sandemonium: #F9E4D8;
+  --color-risingsun: #FF6B6B;
+
+  --color-errorfying: #D34040;
+  --color-djvalid: #1EBE67;
+
+  --color-primary: #181818;
+  --color-base: #181818;
+  --color-border: #181818;
+  --color-bg: #ffffff;
+  /* Fonts */
+  --font-sans-serif: 'ModeratRegular', sans-serif;
+  --font-sans-serif-bold: 'ModeratBold', sans-serif;
+  --font-serif: Georgia, Times, serif;
+  --font-mono: Menlo, Courier, monospace;
+
+  /* Breakpoints */
+  --xlarge: 1680px;
+  --large: 1280px;
+  --medium: 980px;
+  --small: 740px;
+  --xsmall: 480px;
+
+  /* Sizes */
+  --height: 4rem;
+  --margin: 2rem;
+  --radius: 0.5rem;
+
+  /* Gradients */
+  --gradient-sunrise: radial-gradient(79.63% 79.63% at 17.87% -6.75%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(118.37deg, rgba(191, 240, 255, 0.7) 0%, rgba(249, 228, 216, 0.7) 100%);
+  --gradient-aurora: radial-gradient(79.63% 79.63% at 17.87% -6.75%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(118.37deg, rgba(105, 90, 241, 0.2) 0%, rgba(84, 218, 145, 0.2) 100%);
+  --gradient-sunset:  radial-gradient(79.63% 79.63% at 17.87% -6.75%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(118.37deg, rgba(255, 107, 107, 0.24) 0%, rgba(191, 240, 255, 0.3) 100%);
+  --gradient-sunrisepure: linear-gradient(118.37deg, rgba(191, 240, 255, 0.7) 0%, rgba(249, 228, 216, 0.7) 100%);
+  --gradient-aurorapure: linear-gradient(118.37deg, rgba(105, 90, 241, 0.2) 0%, rgba(84, 218, 145, 0.2) 100%);
+  --gradient-sunsetpure: linear-gradient(118.37deg, rgba(255, 107, 107, 0.24) 0%, rgba(191, 240, 255, 0.3) 100%);
+  --gradient-sunriseline: linear-gradient(90deg, #BFF0FF 0%, #F9E4D8 100%);
+  --gradient-auroraline: linear-gradient(90deg, rgba(105, 90, 241, 0.3) 0%, rgba(84, 218, 145, 0.3) 100%);
+  --gradient-sunsetline: linear-gradient(90deg, rgba(255, 107, 107, 0.5) 0%, rgba(191, 240, 255, 0.5) 100%);
+
+  --border-radius-boxes: 3px;
+
+  /* Transitions */
+
+  --transition-default: cubic-bezier(0.32, -0.01, 0, 0.99) 200ms;
+  --transition-hover: cubic-bezier(0.83, 0, 0.37, 1.01) 350ms;
+}

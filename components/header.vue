@@ -30,8 +30,8 @@
           <div class="site-head-center">
             <a class="site-head-logo" href="/">
               <img
-                alt="Replica - AI voices"
-                src="/assets/images/replica-full.png"
+                alt="ketch"
+                src="/assets/images/ketch.png"
               />
             </a>
           </div>

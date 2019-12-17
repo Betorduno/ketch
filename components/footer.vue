@@ -7,7 +7,7 @@
               <li>
                 <a href="/" style="border: 0;">
                   <img
-                    alt="Replica - AI voice"
+                    alt="logo ketch"
                     class="site-head-logo"
                     src="/assets/images/logo.png"
                     style="max-width: 140px;padding:0"
@@ -16,7 +16,7 @@
               </li>
               <li>
                 <img
-                  alt="Replica - AI voice"
+                  alt="twtter ketch"
                   src="/assets/images/twitter.png"
                   style="max-width: 18px;margin-bottom: 3px;margin-right: 5px;"
                 />
@@ -24,7 +24,7 @@
               </li>
               <li>
                 <img
-                  alt="Replica - AI voice"
+                  alt="youtube"
                   src="/assets/images/youtube.png"
                   style="max-width: 18px;margin-bottom: 3px;margin-right: 5px;"
                 />
@@ -35,11 +35,11 @@
               </li>
               <li>
                 <img
-                  alt="Replica - AI voice"
+                  alt="linkedin"
                   src="https://static.replicastudios.com/production/assets/0509f25/slp/img/linkedin.png"
                   style="max-width: 18px;margin-bottom: 3px;margin-right: 5px;"
                 />
-                <a href="https://www.linkedin.com/company/replica-ai/" target="_blank">LinkedIn</a>
+                <a href="https://co.linkedin.com/in/santiago-blanco-vilchez-b7992193" target="_blank">LinkedIn</a>
               </li>
             </ul>
           </div>

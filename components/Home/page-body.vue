@@ -3,11 +3,11 @@
     <section class="index-hero">
       <div class="background"></div>
       <div class="index-hero-wrapper">
-        <h1 class="headline2">AI voice for your creative projects</h1>
+        <h1 class="headline2">proyectos creativos</h1>
         <h2
           class="body1"
-        >Create naturally expressive voice overs and performances with a Replica Voice.</h2>
-        <a class="button-primary" href="requestaccess.html" id="hero-cta">Request early access</a>
+        >somos una empresa que desarrolla ágil y con precios competitivos. Flexibilidad a cambios. Marcos ágiles desarrollo. Aplicaciones nativas.</h2>
+        <a class="button-primary" href="/support" id="hero-cta">Contactanos!</a>
       </div>
     </section>
     <section class="as-seen">
@@ -38,16 +38,15 @@
       <div class="row">
         <div class="col-md-4">
           <h2 class="headline3">
-            What's a
-            <br />Replica Voice?
+                Qué es Ketch?
           </h2>
           <p
             style="font-size:24px;line-height:32px;"
-          >We capture your unique speech patterns, pronunciation, and emotional range to create a realistic Replica Voice.</p>
+          >Servicios de Desarrollo de Software bajo un modelo de Fábrica, disponiendo de equipos de trabajo especializados en tecnologías Javascript, css , c#, bootstrap y strapi . </p>
           <p
             style="font-size:24px;line-height:32px;"
-          >You can use Replica Voices to create natural vocal performances with our text-to-speech generator.</p>
-          <a class="button-large sunrise" href="product.html#voice">
+          >Nuestros equipos utilizan las mejoras prácticas del marco ágil SCRUM combinadas con algunas variantes que permiten mejorar el proceso de desarrollo.</p>
+          <a class="button-large sunrise" href="product#voice">
             <span class="icon">Learn more</span>
           </a>
         </div>

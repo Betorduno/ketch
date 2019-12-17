@@ -12,7 +12,8 @@ export default {
     ],
     script:[
         { src: 'https://cdn.jsdelivr.net/npm/contentful@5.0.1/dist/contentful.browser.min.js'},
-        { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'}
+        { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'},
+        { src: '/assets/js/zoho.js'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -20,7 +21,7 @@ export default {
       { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-96x96.png", rel: "icon", sizes: "96x96", type: "image/png"},
       { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-32x32.png", rel: "icon", sizes: "32x32", type: "image/png"},
       { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png"},
-      { href: "assets/css/base.css", rel: "stylesheet"}
+      { href: "/assets/css/base.css", rel: "stylesheet"}
     ]
   },
   /*
