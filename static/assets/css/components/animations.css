@@ -1,0 +1,176 @@
+/* Animations
+/* ---------------------------------------------------------- */
+
+.transition-fade {
+    transition: 0.25s;
+    opacity: 1;
+    animation: slideUp 0.9s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+    transform: translate3d(0, 4vh, 0);
+}
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate3d(0, 4vh, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity: 0.1; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.1; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.1; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.1; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+    -webkit-transition: all 220ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 220ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 220ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all 220ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 220ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-animation: flickerAnimation 4s infinite;
+    -moz-animation: flickerAnimation 4s infinite;
+    -o-animation: flickerAnimation 4s infinite;
+     animation: flickerAnimation 4s infinite;
+}
+
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 90000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 90000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin;
+  animation-duration: 90000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@-moz-keyframes spin-cc {
+  from { -moz-transform: rotate(360deg); }
+  to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin-cc {
+  from { -webkit-transform: rotate(360deg); }
+  to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin-cc {
+  from {transform:rotate(360deg);}
+  to {transform:rotate(0deg);}
+}
+
+.spin-cc {
+  -webkit-animation-name: spin-cc;
+  -webkit-animation-duration: 40000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin-cc;
+  -moz-animation-duration: 40000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin-cc;
+  -ms-animation-duration: 40000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin-cc;
+  animation-duration: 40000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+@-webkit-keyframes fadeInLeft{
+  0%{
+      opacity:0;
+      -webkit-transform:translateX(-200px);
+      transform:translateX(-200px)}
+  40%{
+      opacity:1;
+      -webkit-transform:translateX(0);
+      transform:translateX(0)
+  }
+  100%{
+      opacity:0;
+      -webkit-transform:translateX(200);
+      transform:translateX(200)
+  }
+}
+@keyframes fadeInLeft{
+  0%{
+      opacity:0;
+      -webkit-transform:translateX(-200px);
+      -ms-transform:translateX(-200px);
+      transform:translateX(-200px)}
+  40%{
+      opacity:1;
+      -webkit-transform:translateX(0);
+      -ms-transform:translateX(0);
+      transform:translateX(0)
+  }
+  100%{
+      opacity:0;
+      -webkit-transform:translateX(200px);
+      -ms-transform:translateX(200px);
+      transform:translateX(200px)
+  }
+}
+.fadeInLeft {
+  -webkit-animation-duration:2s;
+  animation-duration:2s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-name:fadeInLeft;
+  animation-name:fadeInLeft;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}

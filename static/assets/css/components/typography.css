@@ -1,0 +1,151 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1em;
+}
+
+h1 {
+    font-family: 'ModeratBold', sans-serif;
+}
+
+h2 {
+    margin: 0 0 1em 0;
+}
+
+
+.headline1 {
+	font-size: 4em; /* 72px */
+}
+
+.headline2 {
+	font-size: 3.556em; /* 64px */
+}
+
+.headline3 {
+    font-size: 2.667em; /* 48px */
+    font-family: 'ModeratBold', sans-serif;
+}
+
+.headline4 {
+    font-size: 2em; /* 36px */
+    font-family: 'ModeratBold', sans-serif;
+}
+
+.headline5 {
+	font-size: 1.333em; /* 24px */
+	font-family: 'ModeratBold', sans-serif;
+	margin-bottom: 1em;
+}
+
+.headline6 {
+	font-size: 1em; /* 18px */
+}
+
+.body1 {
+	font-size: 1.667em; /* 30px */
+	line-height: 1.29em; /* 38px */
+}
+
+.body2 {
+	font-size: 1.333em; /* 24px */
+	line-height: 1.34em; /* 32px */
+}
+
+.textbutton {
+	display: inline-block;
+    font-family: 'ModeratBold', sans-serif;
+	font-size: 1.333em; /* 24px */
+	line-height: 1.23em; /* 32px  */
+	position: relative;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
+
+.textbutton:after {
+	background: #201D19;
+	bottom: -5px;
+	content: '';
+	display: block;
+	height: 2px;
+	overflow: none;
+	pointer-events:none;
+	position: absolute;
+	right: 0;
+	transition: all 200ms ease-in-out;
+	width: 100%;
+}
+
+.textbutton:hover:after {
+	width: 0;
+}
+
+label {
+	display: inline-block;
+    font-family: 'ModeratBold', sans-serif;
+	font-size: 0.722em; /* 13px */
+	line-height: 1em; /* 16px */
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	.headline1 {
+		font-size: 2.625em; /* 42px */
+	}
+
+	.headline2 {
+		font-size: 2.375em; /* 38px */
+	}
+
+	.headline3 {
+		font-size: 2.125em; /* 34px */
+	}
+
+	.headline4 {
+		font-size: 1.625em; /* 26px */
+	}
+
+	.headline5 {
+		font-size: 1.250em; /* 20px */
+	}
+
+	.headline6 {
+		font-size: 1em; /* 16px */
+	}
+
+	.body1 {
+		font-size: 1.375em; /* 22px */
+		line-height: 1.4em; /* 30px */
+	}
+
+	.body2 {
+		font-size: 1.250em; /* 20px */
+		line-height: 1.4em; /* 28px */
+	}
+
+	.textbutton {
+		font-size: 1.250em; /* 20px */
+	}
+	.textbutton:hover:after {
+		transition: none;
+		width: 100%;
+	}
+
+}
+
+/* Custom
+/* ---------------------------------------------------------- */
+
+.index-hero h2 {
+    margin: 0 0 1.5em 0;
+}
+
+
