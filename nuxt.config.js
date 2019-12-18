@@ -17,10 +17,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon.ico", rel: "shortcut icon", type: "image/x-icon"},
-      { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-96x96.png", rel: "icon", sizes: "96x96", type: "image/png"},
-      { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-32x32.png", rel: "icon", sizes: "32x32", type: "image/png"},
-      { href: "https://static.replicastudios.com/production/assets/0509f25/slp/img/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png"},
       { href: "/assets/css/base.css", rel: "stylesheet"}
     ]
   },

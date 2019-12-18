@@ -10,7 +10,7 @@
                     alt="logo ketch"
                     class="site-head-logo"
                     src="/assets/images/logo.png"
-                    style="max-width: 140px;padding:0"
+                    style="max-width: 140px;padding-top:5px"
                   />
                 </a>
               </li>

@@ -7,13 +7,14 @@ import {
 } from './utils'
 
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"ketch","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":" Pagina principal de Ketch"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fcontentful@5.0.1\u002Fdist\u002Fcontentful.browser.min.js"},{"src":"https:\u002F\u002Fajax.googleapis.com\u002Fajax\u002Flibs\u002Fjquery\u002F3.2.1\u002Fjquery.min.js"},{"src":"\u002Fassets\u002Fjs\u002Fzoho.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"href":"https:\u002F\u002Fstatic.replicastudios.com\u002Fproduction\u002Fassets\u002F0509f25\u002Fslp\u002Fimg\u002Ffavicon.ico","rel":"shortcut icon","type":"image\u002Fx-icon"},{"href":"https:\u002F\u002Fstatic.replicastudios.com\u002Fproduction\u002Fassets\u002F0509f25\u002Fslp\u002Fimg\u002Ffavicon-96x96.png","rel":"icon","sizes":"96x96","type":"image\u002Fpng"},{"href":"https:\u002F\u002Fstatic.replicastudios.com\u002Fproduction\u002Fassets\u002F0509f25\u002Fslp\u002Fimg\u002Ffavicon-32x32.png","rel":"icon","sizes":"32x32","type":"image\u002Fpng"},{"href":"https:\u002F\u002Fstatic.replicastudios.com\u002Fproduction\u002Fassets\u002F0509f25\u002Fslp\u002Fimg\u002Ffavicon-16x16.png","rel":"icon","sizes":"16x16","type":"image\u002Fpng"},{"href":"\u002Fassets\u002Fcss\u002Fbase.css","rel":"stylesheet"}],"style":[]},
+  head: {"title":"ketch","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":" Pagina principal de Ketch"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fcontentful@5.0.1\u002Fdist\u002Fcontentful.browser.min.js"},{"src":"https:\u002F\u002Fajax.googleapis.com\u002Fajax\u002Flibs\u002Fjquery\u002F3.2.1\u002Fjquery.min.js"},{"src":"\u002Fassets\u002Fjs\u002Fzoho.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"href":"\u002Fassets\u002Fcss\u002Fbase.css","rel":"stylesheet"}],"style":[]},
 
   render (h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
@@ -47,7 +48,7 @@ export default {
       }
     }, [
       loadingEl,
-
+      h(NuxtBuildIndicator),
       transitionEl
     ])
   },
@@ -157,6 +158,10 @@ export default {
     },
 
     setLayout (layout) {
+      if(layout && typeof layout !== 'string') {
+        throw new Error('[nuxt] Avoid using non-string value as layout property.')
+      }
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }
